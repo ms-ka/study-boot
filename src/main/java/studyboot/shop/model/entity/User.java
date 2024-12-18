@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 import java.util.Collection;
 import java.util.Objects;
@@ -98,5 +99,6 @@ public class User implements UserDetails {
 
 //    public static void main(String[] args) {
 //        System.out.println(new BCryptPasswordEncoder().encode("111"));
+//        // $2a$10$skEK0kkyqbHB8.mLI33zuu0tto0JKgDD1lwXfqJxLRLcD1FHH69Ie
 //    }
 }
